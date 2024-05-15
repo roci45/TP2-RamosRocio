@@ -8,7 +8,6 @@ public class PagoEfectivo implements Pago {
     private double montoPagado;
     private LocalDate fechaPago;
 
-    // Constructor, getters y setters aquí
 
     @Override
     public void realizarPago(double monto) {

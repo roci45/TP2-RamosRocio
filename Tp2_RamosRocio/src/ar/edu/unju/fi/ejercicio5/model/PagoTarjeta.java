@@ -9,7 +9,6 @@ public class PagoTarjeta implements Pago {
     private LocalDate fechaPago;
     private double montoPagado;
 
-    // Constructor, getters y setters aquí
 
     @Override
     public void realizarPago(double monto) {

@@ -45,7 +45,7 @@ public class Main {
 
                     double monto = 0;
                     for (Producto producto : carrito) {
-                        monto += producto.getPrecio(); // Asegúrate de tener un método getPrecio() en tu clase Producto
+                        monto += producto.getPrecio(); 
                     }
 
                     pago.realizarPago(monto);
